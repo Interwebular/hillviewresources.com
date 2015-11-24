@@ -1,0 +1,106 @@
+body {
+    background: #f0f0f0;
+}
+
+/*****************
+*
+*   HEADER
+*
+******************/
+header {
+    position: relative;
+    background: url(../img/barge.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px 10px 300px 10px;
+}
+
+.header-logo {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header-logo img { width: 100%; }
+
+.header-arrow {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1.3em;
+}
+
+.header-arrow:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+    @media(max-width:1200px) {
+        header { padding: 50px 10px 200px 10px; }
+
+        .header-logo { width: 300px; }
+
+        .header-arrow {
+            font-size: 1em;
+            bottom: 5px;
+        }
+    }
+
+    @media(max-width:992px) {
+        header { padding: 0px 10px 100px 10px; }
+
+        .header-logo { width: 200px; }
+
+        .header-arrow {
+            font-size: 1em;
+            bottom: 5px;
+        }
+    }
+
+
+/*****************
+*
+*   CONTENT
+*
+*   Font: aktiv-grotesk, 200,300,400,500,700
+*
+******************/
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: aktiv-grotesk, arial, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news {
+    border-top: 1px solid #d1d1d1;
+    margin-bottom: 50px;
+}
+
+.list-group-item p {
+    margin: 0;
+}
+
+/*****************
+*
+*   FOOTER
+*
+******************/
+footer {
+    font-family: aktiv-grotesk, arial, sans-serif;
+    background: #333;
+    color: #d1d1d1;
+    padding: 14px;
+    font-size: .8em;
+}
